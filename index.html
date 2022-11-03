@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="ANIMALSHELTER.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="ANIMAL SHELTER.js"></script>
+
+    <div id="sectionHome">
+
+        <nav class="navbar navbar-expand-lg navbar-light nav-bar-bg  p-2">
+            <div class="container">
+                <a class="navbar-brand nav-font" href="#">
+                    <img src="https://zumvet.com/assets/frontend/images/undraw_friends_r511.svg" class="navbar-logo" />ANIMAL SHELTER
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="d-flex flex-row justify-content-center m-auto">
+                        <div class="navbar-nav ">
+                            <a class="nav-link active" href="#" id="nav-item">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#contactsSection" id="nav-item1">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="ml-auto d-none d-md-none d-lg-block pr-2">
+                        <i class="fab fa-linkedin icon"></i>
+                        <i class="fab fa-twitter icon"></i>
+                        <i class="fab fa-instagram icon"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="banner-bg-container pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <h1 class="banner-heading">We do take in pets if you can’t take care of them !</h1>
+                        <p class="banner-paragraph pb-3">Lorem epsum fbsdifcbij fkjebfkjebfkejbfewkjbfwkejbfwkefefb wef wef efnwekjfbkewjfb wkje febf weubfwef wiuefb ewfu webfuwe bfewufb efb ebf uewbfiuwefbwefweiuf wueibf iuwbefiu efewiufbwiuefbi euwbiuebfe bfe fejsdefsjnekdf ksjdnf kjsdnfkjesdnf kjsekdfjeskfjc...</p>
+                        <div class="col-12 col-md-5 d-block d-md-none text-center">
+                            <img src="https://res.cloudinary.com/dc4wy7wvc/image/upload/v1667234306/undraw_welcome_cats_thqn_1_lse4tk.png" class="cat-image" />
+                        </div>
+                        <div class="text-center d-md-none pt-2">
+                            <button class="giveaway-btn" onclick="display('sectionGive')">Give Away</button>
+                        </div>
+                        <div class="text-left d-none d-md-block">
+                            <button class="giveaway-btn" onclick="display('sectionGive')">Give Away</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 d-none d-md-block">
+                        <img src="https://res.cloudinary.com/dc4wy7wvc/image/upload/v1667234306/undraw_welcome_cats_thqn_1_lse4tk.png" />
+                    </div>
+                    <div class=" pt-5 pb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12  d-block d-md-none ">
+                                    <h1 class="adoption-heading pb-3">Interested in Adoption ?</h1>
+                                    <p class="adoption-paragraph">Glad that you care for the animals so much. We make sure that you’ll not repent your decision of adopting your favorite pet !!</p>
+                                </div>
+
+                                <div class="row">
+                                    <div class=" col-md-5 text-left d-none d-md-block order-2 order-md-1">
+                                        <img src="https://res.cloudinary.com/dc4wy7wvc/image/upload/v1667239208/Frame_3669_1_fmcu6m.png" class="adoption-image2" />
+                                    </div>
+
+
+                                    <div class="col-12 col-md-7 d-none d-md-block order-1 order-md-2 text-right">
+                                        <h1 class="adoption-heading">Interested in Adoption ?</h1>
+                                        <p class="adoption-paragraph pb-5">Glad that you care for the animals so much. We make sure that you’ll not repent your decision of adopting your favorite pet !!</p>
+                                        <div class="d-flex flex-row">
+                                            <div class="p-3">
+                                                <button class="adoption-btn-3" onclick="display('sectionAdopt')">Adopt</button>
+                                            </div>
+                                            <div class="p-3">
+                                                <button class="adoption-btn-4" onclick="display('sectionWhat')">What all pets do we have ?</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 d-flex flex-column justify-content-center order-2 order-md-1 mb-3">
+                                    <div class="text-center d-md-none">
+                                        <img src="https://res.cloudinary.com/dc4wy7wvc/image/upload/v1667239208/Frame_3669_1_fmcu6m.png" class="adoption-image" />
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="pb-1 pt-3 d-block d-md-none ">
+                                            <button class="adoption-btn-1" onclick="display('sectionAdopt')">Adopt</button>
+                                        </div>
+                                        <div class="pb-2 pt-1 d-block d-md-none text-center">
+                                            <button class="adoption-btn-2" onclick="display('sectionWhat')">What all pets do we have ?</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-section" id="contactsSection">
+            <div class="container pt-3 pb-3">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="d-flex flex-row justify-content-center justify-content-md-start mb-3">
+                            <img src="https://zumvet.com/assets/frontend/images/undraw_friends_r511.svg" class="footer-section-image" />
+                            <div class="pt-4">
+                                <h1 class="footer-section-text">ANIMAL SHELTER</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center">
+                            <p class="footer-para">One of the best animal shelter places in India. We’re recognized by the government. Please take a pledge to take care of these lovely pets !</p>
+                        </div>
+                        <div class="d-block d-md-none d-flex flex-row justify-content-center pb-2 pt-2">
+                            <button class="footer-btn-1" onclick="display('sectionAdopt')">Adopt</button>
+                        </div>
+                        <div class="pt-2 pb-2 d-block d-md-none">
+                            <hr class="horizontal-line" />
+                        </div>
+                        <div class=" d-none d-md-block">
+                            <button class="footer-btn-md-2" onclick="display('sectionAdopt')">Adopt
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <h1 class="footer-get-intouch pb-2">GET IN TOUCH</h1>
+                        <div class="d-flex flex-row mb-3">
+
+                            <i class="fas fa-map-marked-alt footer-icon"></i>
+                            <span class="location-text ml-2">llesfnee cnu efoin eoifn oewifnewo inf sdc csdcneno ie woiwemfwokm fwe w ecen cloenwo we - 355233</span>
+
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-envelope footer-icon"></i>
+                            <span class="location-text ml-2">example@gmail.com</span>
+                        </div>
+                        <h1 class="footer-get-intouch">Follow Us</h1>
+                        <div>
+                            <div class="d-flex flex-row justify-content-start justify-content-md-start mt-3 ">
+
+                                <div class="sociallink-section-icon-container">
+                                    <i class="fab fa-twitter follow-icons"></i>
+                                </div>
+                                <div class="sociallink-section-icon-container">
+                                    <i class="fab fa-instagram follow-icons"></i>
+                                </div>
+                                <div class="sociallink-section-icon-container">
+                                    <i class="fa fa-linkedin-square follow-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h1 class="footer-get-intouch pb-2">Quick Links</h1>
+                        <p class="footer-quick-links">Home</p>
+                        <p class="footer-quick-links">Contact Us</p>
+                    </div>
+                    <div class="col-12 d-none d-md-block">
+                        <hr class="horizontal-line" />
+                    </div>
+                    <div class="col-12 pt-2">
+                        <h1 class="footer-quick-links">Copyright ©2023. Animal Shelter</h1>
+                    </div>
+                    <div class="col-12 d-none d-md-block">
+                        <div class="d-flex flex-row justify-content-end">
+                            <p class="footer-md-down-hr">Privacy Policy</p>
+                            <p class="footer-md-down-hr">Terms of Service</p>
+                            <p class="footer-md-down-hr pr-2">Cookies Settings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div id="sectionAdopt">
+        <div class="form-bg pt-3 pb-5">
+            <div class="container">
+                <div>
+                    <div class="text-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="cross-line" onclick="display('sectionHome')">
+                            <path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="form-heading">Adopt a pet</h1>
+                    </div>
+                    <div>
+                        <p class="form-heading2">What pet do you want to adopt ?</p>
+                    </div>
+                    <div>
+                        <form id="myForm">
+                            <div class="mb-3">
+                                <label for="status">Pet Type
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <select id="status" class="form-control">
+                                    <option value="Dog">Dog</option>
+                                    <option value="Cat">Cat</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="breedStatus">Breed
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <select id="breedStatus" class="form-control">
+                                    <option value="Dasch">Dasch</option>
+                                    <option value="Beagle">Beagle</option>
+                                    <option value="Lab">Lab</option>
+                                    <option value="GoldenRetriever">Golden Retriever</option>
+                                    <option value="Lab">Lab</option>
+                                    <option value="Beagle">Beagle</option>
+                                    <option value="Dasch">Dasch</option>
+                                </select>
+                            </div>
+                            <h1 class="form-heading2">Please fill in your details</h1>
+                            <div class="mb-3">
+                                <label for="name">Full Name
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <input type="text" class="form-control" id="name" placeholder="Sachin Tendulkar" />
+                                <p id="nameErrMsg" class="error-message"></p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email">Email
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <input type="email" class="form-control" id="email" placeholder="example@gmail.com" />
+                                <p id="emailErrMsg" class="error-message"></p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="number">Phone
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <input type="tel" class="form-control" id="number" placeholder="+91 - 4934234345" />
+                                <p id="numErrMsg" class="error-message"></p>
+                            </div>
+                            <div class="d-flex flex-row justify-content-center justify-content-md-end">
+                                <button class="adoption-btn-3" onclick="requestButton()">REQUEST FOR ADOPTION</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectionGive">
+        <div class="form-bg2 pt-3 pb-5">
+            <div class="container">
+                <div>
+                    <div class="text-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="cross-line2" onclick="display('sectionHome')">
+                            <path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="form-heading">Give Away</h1>
+                    </div>
+                    <div>
+                        <p class="form-heading2">What pet do you want to give away ?</p>
+                    </div>
+                    <div>
+                        <form id="myFormEb">
+                            <div class="mb-3">
+                                <label for="giveStatus">Pet Type
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star2">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <select id="giveStatus" class="form-control">
+                                    <option value="Dog">Dog</option>
+                                    <option value="Cat">Cat</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="gbStatusEb">Breed
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star2">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <select id="gbStatusEb" class="form-control">
+                                    <option value="Dog">Dasch</option>
+                                    <option value="Cat">Beagle</option>
+                                    <option value="Dog">Lab</option>
+                                    <option value="Cat">Golden Retriever</option>
+                                    <option value="Dog">Lab</option>
+                                    <option value="Cat">Beagle</option>
+                                    <option value="Dog">Dasch</option>
+                                </select>
+                            </div>
+                            <h1 class="form-heading4">Please fill in your details</h1>
+                            <div class="mb-3">
+                                <label for="nameEg">Full Name
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star2">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <input type="text" class="form-control" id="nameEg" placeholder="Sachin Tendulkar" />
+                                <p id="nameErrMsgEb" class="error-message"></p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailEb">Email
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star2">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <input type="text" class="form-control" id="emailEb" placeholder="example@gmail.com" />
+                                <p id="emailErrMsgEb" class="error-message"></p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="numberEb">Phone
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="red-star2">
+                                        <path d="M208 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V172.9l122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.5 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1V480c0 17.7-14.3 32-32 32H240c-17.7 0-32-14.3-32-32V339.1L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4V32z" />
+                                    </svg>
+                                </label>
+                                <input type="number" class="form-control" id="numberEb" placeholder="+91 - 4934234345" />
+                                <p id="numErrMsgEb" class="error-message"></p>
+                            </div>
+                            <div class="d-flex flex-row justify-content-center justify-content-md-end">
+                                <button class="adoption-btn-5" onclick="giveAwayButton()">REQUEST FOR GIVE AWAY</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="sectionWhat">
+        <div class="container form-bg3">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="cross-line4" onclick="display('sectionHome')">
+                            <path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="form-heading7">What all pets do we have ?</h1>
+                    </div>
+                    <div class="d-flex flex-row pt-2">
+                        <button class="dogs selected-button button" id="dogsButton" onclick="onClickDogsTab()">Dogs</button>
+                        <h1 class="dogs pr-2 pl-2">|</h1>
+                        <button class="dogs selected-button button" id="catsButton" onclick="onClickCatsTab()">Cats</button>
+                    </div>
+                </div>
+
+
+                <div class="col-12" id="dogsTab">
+                    <div class="d-flex flex-row">
+                        <div class="col-4">
+                            <h1 class="name pr-4 p-4">Name</h1>
+                            <p class="p-4">Lyka</p>
+                            <p class="p-4">Albie</p>
+                            <p class="p-4">Happy</p>
+                            <p class="p-4">Ramu</p>
+                            <p class="p-4">Pinky</p>
+                            <p class="p-4">Sweetie</p>
+                        </div>
+                        <div class="col-4">
+                            <h1 class="name pr-4 p-4">Breed</h1>
+                            <p class="p-4">Dasch</p>
+                            <p class="p-4">Beagle</p>
+                            <p class="p-4">Lab</p>
+                            <p class="p-4">Golden Retriever</p>
+                            <p class="p-4">Lab</p>
+                            <p class="p-4">Beagle</p>
+                        </div>
+                        <div class="col-4">
+                            <h1 class="name pr-4 p-4">Age ( months )</h1>
+                            <p class="p-4">12</p>
+                            <p class="p-4">3</p>
+                            <p class="p-4">5</p>
+                            <p class="p-4">6</p>
+                            <p class="p-4">7</p>
+                            <p class="p-4">21</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12" id="catsTab">
+                    <div class="d-flex flex-row">
+                        <div class="col-4">
+                            <h1 class="name pr-4 p-4">Name</h1>
+                            <p class="p-4">chippy</p>
+                            <p class="p-4">Vijar</p>
+                            <p class="p-4">Happy</p>
+                            <p class="p-4">Ramu</p>
+                            <p class="p-4">Pinky</p>
+                            <p class="p-4">Sweetie</p>
+                        </div>
+                        <div class="col-4">
+                            <h1 class="name pr-4 p-4">Breed</h1>
+                            <p class="p-4">Dasch</p>
+                            <p class="p-4">Beagle</p>
+                            <p class="p-4">Lab</p>
+                            <p class="p-4">Golden Retriever</p>
+                            <p class="p-4">Lab</p>
+                            <p class="p-4">Beagle</p>
+                        </div>
+                        <div class="col-4">
+                            <h1 class="name pr-4 p-4">Age ( months )</h1>
+                            <p class="p-4">12</p>
+                            <p class="p-4">5</p>
+                            <p class="p-4">3</p>
+                            <p class="p-4">6</p>
+                            <p class="p-4">10</p>
+                            <p class="p-4">21</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
